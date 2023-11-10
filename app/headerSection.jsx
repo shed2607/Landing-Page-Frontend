@@ -7,27 +7,27 @@ const HeaderSection = () => {
   const link = [
     {
       name: "Home",
-      href: "first",
+      href: "#first",
     },
     {
       name: "About",
-      href: "about",
+      href: "#about",
     },
     {
       name: "Service",
-      href: "service",
+      href: "#service",
     },
     {
-      name: "Price",
-      href: "prices",
+      name: "Prices",
+      href: "#price",
     },
     {
       name: "Testimonial",
-      href: "testimonial",
+      href: "#testimonial",
     },
     {
       name: "Contact",
-      href: "contact",
+      href: "#contact",
     },
   ];
   return (
@@ -78,7 +78,7 @@ const NavBtn = (prop) => {
       spy={true}
       smooth={true}
       offset={0}
-      duration={200}
+      duration={100}
       activeClass="active-link"
     >
       <span className="line"></span>

@@ -72,7 +72,7 @@ const Services = () => {
                   <div className="flex-shrink-0">
                     <div className="flow-root">
                       <Image
-                        className="-my-8 h-full object-cover rounded-lg shadow-lg"
+                        className="-my-8 h-full object-cover rounded-lg shadow-lg bg-white p-2 bg-opacity-50"
                         src={service.image}
                         alt=""
                         width={50}
